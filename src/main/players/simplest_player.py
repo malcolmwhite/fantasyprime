@@ -15,3 +15,6 @@ class SimplestPlayer(BasePlayer):
 
     def get_stats_for_schedule_unit(self, schedule_unit):
         return self.stats[schedule_unit]
+
+    def get_remaining_stats(self, schedule_unit):
+        return self.stats[schedule_unit:]

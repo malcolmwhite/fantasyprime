@@ -11,3 +11,7 @@ class BasePlayer:
     @abstractmethod
     def get_stats_for_schedule_unit(self, schedule_unit):
         pass
+
+    @abstractmethod
+    def get_remaining_stats(self, schedule_unit):
+        pass
